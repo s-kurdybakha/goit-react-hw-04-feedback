@@ -1,0 +1,26 @@
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: rgb(70, 40, 40);
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  font-weight: 400;
+}
+
+.value {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
